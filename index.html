@@ -1,71 +1,118 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>OPDS Test Catalog by Feedbooks</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="OPDS Test Catalog : An OPDS catalog designed to test the features supported by OPDS clients" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>OPDS Test Catalog</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>OPDS Test Catalog</h1>
-          <h2>An OPDS catalog designed to test the features supported by OPDS clients</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Feedbooks/opds-test-catalog">View on GitHub</a>
+
+          <h1 id="project_title">OPDS Test Catalog</h1>
+          <h2 id="project_tagline">An OPDS catalog designed to test the features supported by OPDS clients</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Feedbooks/opds-test-catalog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Feedbooks/opds-test-catalog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
         </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/Feedbooks/opds-test-catalog/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/Feedbooks/opds-test-catalog/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/Feedbooks/opds-test-catalog" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          OPDS Test Catalog is maintained by <a href="https://github.com/Feedbooks">Feedbooks</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
     </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>Test your OPDS client</h2>
+
+<p><a href="http://opds-spec.org">The OPDS specification</a> provides a partial way to test catalogs (through a <a href="http://opds-spec.org/specs/opds-catalog-1-1-20110627/#Appendix_B._RELAX_NG_Compact_Schema">Relax NG Compact Schema</a>) but not clients.
+This catalog is meant to provide an easy way for any developer to test their client and check which features are correctly implemented.</p>
+
+<p>In order to test your client you can manually add the URL of this GitHub Pages hosted catalog: <a href="http://feedbooks.github.com/opds-test-catalog/catalog/root.xml">http://feedbooks.github.com/opds-test-catalog/catalog/root.xml</a></p>
+
+<h2>Features</h2>
+
+<p>The current version of this catalog is designed to test 40+ features that we've grouped together.</p>
+
+<h3>Catalog</h3>
+
+<ul>
+<li>Navigation feed</li>
+<li>Acquisition feed</li>
+<li>Clear distinction between navigation/acquisition</li>
+<li>Pagination</li>
+<li>Search</li>
+<li>Full entries</li>
+</ul><h3>Metadata and images</h3>
+
+<ul>
+<li>Image representation</li>
+<li>Thumbnail representation</li>
+<li>Title</li>
+<li>Author</li>
+<li>Search</li>
+<li>Contributor</li>
+<li>Language</li>
+<li>Publication date</li>
+<li>Summary</li>
+<li>Description</li>
+<li>Higher priority for description when summary is also available</li>
+<li>Rights</li>
+<li>Category</li>
+<li>Displaying label instead of code for category</li>
+</ul><h3>Acquisition</h3>
+
+<ul>
+<li>Generic acquisition link</li>
+<li>Buy</li>
+<li>Borrow</li>
+<li>Open access</li>
+<li>Subscribe</li>
+<li>Sample</li>
+<li>Support for multiple acquisition links</li>
+<li>Price</li>
+<li>Currency</li>
+<li>Indirect acquisition</li>
+</ul><h3>Additional navigation</h3>
+
+<ul>
+<li>Links in entries</li>
+<li>Featured</li>
+<li>Recommended</li>
+<li>New</li>
+<li>Popular</li>
+<li>Multiple links to featured/recommended/new/popular</li>
+</ul><h3>Ecosystem</h3>
+
+<ul>
+<li>Add catalog via an URL</li>
+<li>Support for OPDS URI scheme</li>
+<li>Browse from link with OPDS URI scheme</li>
+<li>Add catalog from link with OPDS URI scheme</li>
+<li>OPDS callback</li>
+</ul><h2>Authors and Contributors</h2>
+
+<p>The current version of the OPDS test catalog was entirely designed by Hadrien Gardeur (<a href="https://github.com/HadrienGardeur" class="user-mention">@HadrienGardeur</a>) from Feedbooks (<a href="https://github.com/Feedbooks" class="user-mention">@Feedbooks</a>).</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">OPDS Test Catalog maintained by <a href="https://github.com/Feedbooks">Feedbooks</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
