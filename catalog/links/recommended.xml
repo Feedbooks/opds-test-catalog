@@ -7,7 +7,7 @@
     <name>Hadrien Gardeur</name>
     <uri>https://github.com/Feedbooks</uri>
   </author>
-  <link type="application/atom+xml; profile=opds-catalog; kind=navigation" rel="self" href="recommended.xml"/>
+  <link type="application/atom+xml; profile=opds-catalog; kind=navigation" rel="self" href="/recommended.xml"/>
   <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="../root.xml"/>
   <link type="application/opensearchdescription+xml" title="Search on Feedbooks" rel="search" href="../opensearch.xml"/>
   
