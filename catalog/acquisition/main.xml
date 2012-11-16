@@ -10,7 +10,7 @@
   
   <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="self" href="main.xml" />
   <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="../root.xml "/>
-  <link type="application/opensearchdescription+xml" title="Search on Feedbooks" rel="search" href="../opensearch.xml" />
+  <link type="application/opensearchdescription+xml" title="Search on test catalog" rel="search" href="../opensearch.xml" />
   
   <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="next" href="page2.xml" />
   <opensearch:totalResults>8</opensearch:totalResults>

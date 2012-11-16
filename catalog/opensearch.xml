@@ -4,5 +4,5 @@
   <Description>Test search in a client</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
-  <Url type="application/atom+xml" template="http://feedbooks.github.com/opds-test-catalog/catalog/search/results.xml#{searchTerms}"/>
+  <Url type="application/atom+xml;profile=opds-catalog;kind=acquisition" template="/search/results.xml#{searchTerms}"/>
 </OpenSearchDescription>
