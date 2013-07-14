@@ -145,6 +145,7 @@
     </content>
     <link type="text/html" rel="http://opds-spec.org/acquisition/borrow" href="http://www.feedbooks.com/book/52">
       <opds:indirectAcquisition type="application/epub+zip" />
+      <opds:unavailable date="2013-10-12" />
     </link>
     <link type="image/jpeg" rel="http://opds-spec.org/image" href="../larger.jpg" />
     <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="../thumbnail.jpg" />
