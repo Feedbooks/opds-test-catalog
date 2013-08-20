@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns="http://www.w3.org/2005/Atom" xmlns:app="http://www.w3.org/2007/app" xml:lang="en" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>http://www.feedbooks.com/catalog.atom</id>
+  <title>Meilleures Ventes</title>
+  <updated>2013-08-07T01:08:28Z</updated>
+  <icon>http://assets2.feedbooks.net/images/favicon.ico?t=1375806016</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>support@feedbooks.zendesk.com</email>
+  </author>
+<entry>
+<title>Lituma en los Andes</title>
+<id>http://www.feedbooks.com/item/471431</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788408111139</dcterms:identifier>
+<author>
+  <name>Mario Vargas Llosa</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Mario+Vargas+Llosa%22</uri>
+</author>
+<published>2013-04-05T23:53:44Z</published>
+<updated>2013-08-05T00:16:28Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>BackList</dcterms:publisher>
+<dcterms:issued>2011-11-04</dcterms:issued>
+<summary>
+          La indiscutible maestr&#237;a de uno de los mejores novelistas contempor&#225;neos en lengua espa&#241;ola se hace patente en estas p&#225;ginas, que constituyen un impresionante mosaico de situaciones humanas a las que s&#243;lo un escritor como Vargas Llosa pod&#237;a ...</summary>
+<dcterms:extent>231.9 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Literary" term="FBFIC019000"/>
+<category label="South American literature" term="INFSPSAN"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/471431"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/471431.jpg?size=large&amp;t=1375661788"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/471431.jpg?t=1375661788"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/471431/buy">
+  <opds:price currencycode="EUR">13.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/471431.atom"/>
+</entry>
+<entry>
+<title>Cien a&#241;os de soledad</title>
+<id>http://www.feedbooks.com/item/405126</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788415551218</dcterms:identifier>
+<author>
+  <name>Gabriel Garcia Marquez</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Gabriel+Garcia+Marquez%22</uri>
+</author>
+<published>2013-01-02T20:06:31Z</published>
+<updated>2013-08-05T00:41:25Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>Leer-e</dcterms:publisher>
+<dcterms:issued>2012-03-04</dcterms:issued>
+<summary>La aventura de la familia Buend&#237;a-Iguar&#225;n, representa al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero.&#171;Muchos a&#241;os despu&#233;s, frente al pelot&#243;n de fusilamiento, el coronel Aureliano Buend&#237;a hab&#237;a de recordar aquella tar...</summary>
+<dcterms:extent>498.9 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Literary" term="FBFIC019000"/>
+<category label="South American literature" term="INFSPSAN"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/405126"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/405126.jpg?size=large&amp;t=1375663285"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/405126.jpg?t=1375663285"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/405126/buy">
+  <opds:price currencycode="EUR">5.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/405126.atom"/>
+</entry>
+<entry>
+<title>Peregrinatio</title>
+<id>http://www.feedbooks.com/item/404607</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788408005551</dcterms:identifier>
+<author>
+  <name>Matilde Asensi</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Matilde+Asensi%22</uri>
+</author>
+<published>2013-01-02T18:16:26Z</published>
+<updated>2013-06-09T23:59:33Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>Booket</dcterms:publisher>
+<dcterms:issued>2012-02-23</dcterms:issued>
+<summary>
+          A&#241;o 1324. Siguiendo la sintrucciones de su padre, Galcer&#225;n de Born, y acompa&#241;ado por una antiguo templario, el joven Jon&#225;s prestar&#225; el solemne juramento de la caballero inici&#225;tica y emprender&#225; el Camino de Santiago como un peregrino m&#225;s, par...</summary>
+<dcterms:extent>10.4 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Historical" term="FBFIC014000"/>
+<category label="Hispanophone literature" term="INFSP000"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/404607"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/404607.jpg?size=large&amp;t=1370822373"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/404607.jpg?t=1370822373"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/404607/buy">
+  <opds:price currencycode="EUR">3.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/404607.atom"/>
+</entry>
+<entry>
+<title>La invenci&#243;n del amor</title>
+<id>http://www.feedbooks.com/item/488476</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788420414799</dcterms:identifier>
+<author>
+  <name>Jos&#233; Ovejero</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Jos%C3%A9+Ovejero%22</uri>
+</author>
+<published>2013-05-04T00:53:07Z</published>
+<updated>2013-08-19T14:13:41Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>Alfaguara</dcterms:publisher>
+<dcterms:issued>2013-05-21</dcterms:issued>
+<summary>PREMIO ALFAGUARA DE NOVELA 2013
+&#171;Una novela que revela la fuerza transformadora de la imaginaci&#243;n y su capacidad para construir nuevas existencias.&#187;
+Manuel Rivas, Presidente del Jurado
+El mi&#233;rcoles 20 de marzo de 2013 un jurado presidido por Manue...</summary>
+<dcterms:extent>230 pages</dcterms:extent>
+<dcterms:extent>3 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Literary" term="FBFIC019000"/>
+<category label="Hispanophone literature" term="INFSP000"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/488476"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/488476.jpg?size=large&amp;t=1376921621"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/488476.jpg?t=1376921621"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/488476/buy">
+  <opds:price currencycode="EUR">9.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/488476.atom"/>
+</entry>
+<entry>
+<title>La &#250;ltima noche de V&#237;ctor Ros</title>
+<id>http://www.feedbooks.com/item/486260</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788401342004</dcterms:identifier>
+<author>
+  <name>J&#233;ronimo Tristante</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22J%C3%A9ronimo+Tristante%22</uri>
+</author>
+<published>2013-04-30T01:48:09Z</published>
+<updated>2013-08-05T00:38:23Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>Plaza &amp; Janes</dcterms:publisher>
+<dcterms:issued>2013-05-15</dcterms:issued>
+<summary>El detective privado V&#237;ctor Ros, es contratado para descubrir al culpable del asesinato de Ram&#243;n F&#233;rez, primog&#233;nito de un acaudalado industrial de Oviedo.</summary>
+<dcterms:extent>1.3 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Mystery &amp; Detective" term="FBFIC022000"/>
+<category label="Historical" term="FBFIC022060"/>
+<category label="Hispanophone literature" term="INFSP000"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/486260"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/486260.jpg?size=large&amp;t=1375663103"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/486260.jpg?t=1375663103"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/486260/buy">
+  <opds:price currencycode="EUR">3.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/486260.atom"/>
+</entry>
+<entry>
+<title>Nocturna (Trilog&#237;a de la Oscuridad I)</title>
+<id>http://www.feedbooks.com/item/415074</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9788483659489</dcterms:identifier>
+<author>
+  <name>Guillermo Del Toro</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Guillermo+Del+Toro%22</uri>
+</author>
+<author>
+  <name>Chuck Hogan</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Chuck+Hogan%22</uri>
+</author>
+<published>2013-01-16T03:17:39Z</published>
+<updated>2013-06-10T01:00:05Z</updated>
+<dcterms:language>es</dcterms:language>
+<dcterms:publisher>Suma de Letras</dcterms:publisher>
+<dcterms:issued>2010-07-14</dcterms:issued>
+<summary>
+Por el creador de la oscarizada El laberinto del fauno.
+UNA ESTIRPE MALDITA
+ SE PROPAGA POR EL MUNDO.
+ Y T&#218; TIENES ALGO BAJO LA PIEL
+ QUE LOS VUELVE LOCOS.
+Un avi&#243;n procedente de Berl&#237;n aterriza en Nueva York. Pero algo no funciona bien desde el ...</summary>
+<dcterms:extent>1.8 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Science Fiction" term="FBFIC028000"/>
+<category label="South American literature" term="INFSPSAN"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/415074"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/415074.jpg?size=large&amp;t=1370826005"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/415074.jpg?t=1370826005"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/415074/buy">
+  <opds:price currencycode="EUR">9.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/415074.atom"/>
+</entry>
+</feed>
