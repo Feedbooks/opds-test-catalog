@@ -21,9 +21,17 @@
     <content>Basic acquisition feed</content>
     <link rel="subsection" href="acquisition/main.xml" type="application/atom+xml; profile=opds-catalog; kind=acquisition" />
   </entry>
+
+  <entry>
+    <title>Acquisition with blocks</title>
+    <id>blocks.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>Feed with blocks</content>
+    <link rel="subsection" href="acquisition/blocks.xml" type="application/atom+xml; profile=opds-catalog; kind=acquisition" />
+  </entry>
   
   <entry>
-    <title>Featured</title>
+    <title>Link: Featured</title>
     <id>featured.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Link for additional navigation</content>
@@ -31,7 +39,7 @@
   </entry>
   
   <entry>
-    <title>Recommended</title>
+    <title>Link: Recommended</title>
     <id>recommended.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Link for additional navigation</content>
@@ -39,7 +47,7 @@
   </entry>
   
   <entry>
-    <title>New</title>
+    <title>Link: New</title>
     <id>new.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Link for additional navigation</content>
@@ -47,7 +55,7 @@
   </entry>
   
   <entry>
-    <title>Popular</title>
+    <title>Link: Popular</title>
     <id>popular.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Link for additional navigation</content>

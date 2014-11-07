@@ -7,7 +7,8 @@
     <name>Hadrien Gardeur</name>
     <uri>https://github.com/Feedbooks</uri>
   </author>
-  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="self" href="main.xml"/>
+
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="self" href="page2.xml"/>
   <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="../root.xml"/>
   <link type="application/opensearchdescription+xml" title="Search on test catalog" rel="search" href="../opensearch.xml" />
   
@@ -15,8 +16,8 @@
   <opensearch:totalResults>8</opensearch:totalResults>
   
   <entry>
-    <title>Multiple acquisition rel, Page 2 item</title>
-    <id>test/1/example/9</id>
+    <title>Paging: Page 2 item</title>
+    <id>test/1/example/17</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -32,7 +33,6 @@
     <rights>This work is available for countries where copyright is Life+70 and in the USA.</rights>
     <dcterms:extent>120,697 words</dcterms:extent>
     <link type="application/epub+zip" rel="http://opds-spec.org/acquisition" href="http://www.feedbooks.com/book/52.epub" />
-    <link type="application/epub+zip" rel="http://opds-spec.org/acquisition/sample" href="http://www.feedbooks.com/book/52.epub?test=sample" />
     <link type="image/jpeg" rel="http://opds-spec.org/image" href="../larger.jpg" />
     <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="../thumbnail.jpg" />
     <link type="text/html" rel="related" href="http://www.feedbooks.com/book/52" title="Some link for the test" />
