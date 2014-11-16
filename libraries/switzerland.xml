@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
+  <id>switzerland.xml</id>
+  <title>Switzerland</title>
+
+  <link type="application/atom+xml" rel="self" href="france.xml" />
+  <link type="application/atom+xml" rel="start" href="countries.xml" />
+  
+  <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
+  
+  <entry>
+    <title>Bibliomedia Suisse</title>
+    <id>bibliomedia.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>Suisse</content>
+    <link rel="http://opds-spec.org/catalog" href="http://bibliomedia.cantookstation.eu/" type="text/html" title="e-bibliomedia" />
+  </entry>
+ 
+  <entry>
+    <title>Bibliothèques de Carouge</title>
+    <id>carouge.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>Suisse, Genève</content>
+    <link rel="http://opds-spec.org/catalog" href="http://www.bibliotheques-carouge.ch/EXPLOITATION/Default/livres-numeriques.aspx" type="text/html" />
+  </entry>
+ 
+  <entry>
+    <title>Bibliothèques municipales de la ville de Genève</title>
+    <id>geneve.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>Suisse, Genève</content>
+    <link rel="http://opds-spec.org/catalog" href="http://bm-geneve.cantookstation.eu/" type="text/html" />
+  </entry>
+
+</feed>

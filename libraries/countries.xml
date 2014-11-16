@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
+  <id>countries.xml</id>
+  <title>Countries</title>
+
+  <link type="application/atom+xml" rel="self" href="countries.xml" title="Browse libraries per country" />
+  <link type="application/atom+xml" rel="start" href="countries.xml" />
+
+  <link type="application/atom+xml" rel="http://opds-spec.org/recommended" href="suggestions.xml" title="Nearby libraries" />
+
+  <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
+  
+  <entry>
+    <title>France</title>
+    <id>france.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="flags/france.gif" type="image/gif" />
+    <link rel="subsection" href="france.xml" type="application/atom+xml" thr:count="1" />
+  </entry>
+
+  <entry>
+    <title>Switzerland</title>
+    <id>switzerland.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="flags/switzerland.gif" type="image/gif" />
+    <link rel="subsection" href="switzerland.xml" type="application/atom+xml" thr:count="3" />
+  </entry>
+
+</feed>
