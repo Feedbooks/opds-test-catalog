@@ -3,17 +3,18 @@
   <id>switzerland.xml</id>
   <title>Switzerland</title>
 
-  <link type="application/atom+xml" rel="self" href="france.xml" />
+  <link type="application/atom+xml" rel="self" href="switzerland.xml" />
   <link type="application/atom+xml" rel="start" href="countries.xml" />
   
   <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
-  
+
   <entry>
     <title>Bibliomedia Suisse</title>
     <id>bibliomedia.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Suisse</content>
     <link rel="http://opds-spec.org/catalog" href="http://bibliomedia.cantookstation.eu/" type="text/html" title="e-bibliomedia" />
+    <category term="B" scheme="http://opds-spec.org/header" />
   </entry>
  
   <entry>
@@ -22,6 +23,7 @@
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Suisse, Genève</content>
     <link rel="http://opds-spec.org/catalog" href="http://www.bibliotheques-carouge.ch/EXPLOITATION/Default/livres-numeriques.aspx" type="text/html" />
+    <category term="C" scheme="http://opds-spec.org/header" />
   </entry>
  
   <entry>
@@ -30,6 +32,7 @@
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Suisse, Genève</content>
     <link rel="http://opds-spec.org/catalog" href="http://bm-geneve.cantookstation.eu/" type="text/html" />
+    <category term="G" scheme="http://opds-spec.org/header" />
   </entry>
 
 </feed>

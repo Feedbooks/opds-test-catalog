@@ -5,7 +5,7 @@
 
   <link type="application/atom+xml" rel="self" href="france.xml" />
   <link type="application/atom+xml" rel="start" href="countries.xml" />
-  
+
   <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
   
   <entry>
@@ -15,6 +15,7 @@
     <content>France, Rhône-Alpes</content>
     <link rel="http://opds-spec.org/catalog" href="http://bibook.bm-grenoble.fr/" type="text/html" title="Bibook" />
     <link rel="http://opds-spec.org/catalog" href="http://www.feedbooks.com/catalog.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Feedbooks" />
+    <category term="G" scheme="http://opds-spec.org/header" />
   </entry>
 
 </feed>
