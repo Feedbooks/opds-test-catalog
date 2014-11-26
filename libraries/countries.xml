@@ -28,4 +28,12 @@
     <category term="S" scheme="http://opds-spec.org/header" />
   </entry>
 
+  <entry>
+    <title>USA</title>
+    <id>usa.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <link rel="subsection" href="usa.xml" type="application/atom+xml" thr:count="1" />
+    <category term="U" scheme="http://opds-spec.org/header" />
+  </entry>
+
 </feed>

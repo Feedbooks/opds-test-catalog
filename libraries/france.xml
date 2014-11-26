@@ -14,7 +14,6 @@
     <updated>2012-10-20T01:11:18Z</updated>
     <content>France, Rhône-Alpes</content>
     <link rel="http://opds-spec.org/catalog" href="http://bibook.bm-grenoble.fr/" type="text/html" title="Bibook" />
-    <link rel="http://opds-spec.org/catalog" href="http://www.feedbooks.com/catalog.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Feedbooks" />
     <category term="G" scheme="http://opds-spec.org/header" />
   </entry>
 
@@ -25,6 +24,7 @@
     <content>France, Ile-de-France</content>
     <link rel="http://opds-spec.org/catalog" href="http://www.feedbooks.com" type="text/html" title="Site Web" />
     <link rel="http://opds-spec.org/catalog" href="http://www.feedbooks.com/catalog.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Catalogue OPDS" />
+    <link rel="alternate" href="full_entry.xml" type="application/atom+xml;type=entry" />
     <category term="T" scheme="http://opds-spec.org/header" />
   </entry>
 
