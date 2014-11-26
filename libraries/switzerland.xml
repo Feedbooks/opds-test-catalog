@@ -13,7 +13,7 @@
     <id>bibliomedia.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Suisse</content>
-    <link rel="http://opds-spec.org/catalog" href="http://bibliomedia.cantookstation.eu/" type="text/html" title="e-bibliomedia" />
+    <link rel="http://opds-spec.org/catalog" href="http://bibliomedia.cantookstation.eu/" type="text/html" />
     <category term="B" scheme="http://opds-spec.org/header" />
   </entry>
  

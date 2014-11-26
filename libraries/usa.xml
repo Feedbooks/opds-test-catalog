@@ -13,7 +13,7 @@
     <id>ny.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>New York</content>
-    <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" title="Overdrive" />
+    <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" />
     <category term="N" scheme="http://opds-spec.org/header" />
   </entry>
 
