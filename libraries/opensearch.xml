@@ -4,5 +4,5 @@
   <Description>Test search in libraries</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
-  <Url type="application/atom+xml" template="suggestions.xml#{searchTerms}"/>
+  <Url type="application/atom+xml" template="france.xml#{searchTerms}"/>
 </OpenSearchDescription>
