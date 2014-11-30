@@ -13,11 +13,11 @@
   <link type="application/opensearchdescription+xml" title="Search on test catalog" rel="search" href="../opensearch.xml" />
   
   <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="previous" href="main.xml"/>
-  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:totalResults>18</opensearch:totalResults>
   
   <entry>
     <title>Paging: Page 2 item</title>
-    <id>test/1/example/17</id>
+    <id>http://feedbooks.github.io/test/18</id>
     <author>
       <name>Jane Austen</name>
     </author>

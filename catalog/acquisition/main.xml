@@ -9,15 +9,15 @@
   </author>
   
   <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="self" href="main.xml" />
-  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="../root.xml "/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="../root.xml"/>
   <link type="application/opensearchdescription+xml" title="Search on test catalog" rel="search" href="../opensearch.xml" />
   
   <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="next" href="page2.xml" />
-  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:totalResults>18</opensearch:totalResults>
   
   <entry>
     <title>Pride and Prejudice</title>
-    <id>test/1/example/1</id>
+    <id>http://feedbooks.github.io/test/1</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -40,7 +40,7 @@
 
   <entry>
     <title>Partial and Full entry</title>
-    <id>test/1/example/2</id>
+    <id>http://feedbooks.github.io/test/2</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -61,7 +61,7 @@
 
   <entry>
     <title>Metadata: Summary Only</title>
-    <id>test/1/example/3</id>
+    <id>http://feedbooks.github.io/test/3</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -84,7 +84,7 @@
 
   <entry>
     <title>Metadata: Summary vs Description</title>
-    <id>test/1/example/4</id>
+    <id>http://feedbooks.github.io/test/4</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -110,7 +110,7 @@
 
   <entry>
     <title>Metadata: Contributor</title>
-    <id>test/1/example/5</id>
+    <id>http://feedbooks.github.io/test/5</id>
     <contributor>
       <name>Jane Austen</name>
     </contributor>
@@ -133,7 +133,7 @@
 
   <entry>
     <title>Metadata: No Label</title>
-    <id>test/1/example/6</id>
+    <id>http://feedbooks.github.io/test/6</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -156,7 +156,7 @@
 
   <entry>
     <title>Acquisition: Open Access</title>
-    <id>test/1/example/7</id>
+    <id>http://feedbooks.github.io/test/7</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -179,7 +179,7 @@
 
   <entry>
     <title>Acquisition: Sample</title>
-    <id>test/1/example/8</id>
+    <id>http://feedbooks.github.io/test/8</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -202,7 +202,7 @@
 
   <entry>
     <title>Acquisition: Buy</title>
-    <id>test/1/example/9</id>
+    <id>http://feedbooks.github.io/test/9</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -228,7 +228,7 @@
   
   <entry>
     <title>Acquisition: Subscribe</title>
-    <id>test/1/example/10</id>
+    <id>http://feedbooks.github.io/test/10</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -254,7 +254,7 @@
   
   <entry>
     <title>Acquisition: Borrow</title>
-    <id>test/1/example/11</id>
+    <id>http://feedbooks.github.io/test/11</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -275,8 +275,8 @@
   </entry>
 
   <entry>
-    <title>Acquisition: Sample + Borrow</title>
-    <id>example/sample+borrow</id>
+    <title>Acquisition: Sample and Borrow</title>
+    <id>http://feedbooks.github.io/test/12</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -300,7 +300,7 @@
   
   <entry>
     <title>Acquisition: Place a hold</title>
-    <id>test/1/example/12</id>
+    <id>http://feedbooks.github.io/test/13</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -323,7 +323,7 @@
 
   <entry>
     <title>Acquisition: Pre-order</title>
-    <id>test/1/example/13</id>
+    <id>http://feedbooks.github.io/test/14</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -347,7 +347,7 @@
 
   <entry>
     <title>Acquisition: Multiple links</title>
-    <id>test/1/example/14</id>
+    <id>http://feedbooks.github.io/test/15</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -374,7 +374,7 @@
 
   <entry>
     <title>Acquisition: Indirect good</title>
-    <id>test/1/example/15</id>
+    <id>http://feedbooks.github.io/test/16</id>
     <author>
       <name>Jane Austen</name>
     </author>
@@ -396,7 +396,7 @@
 
   <entry>
     <title>Acquisition: Indirect bad</title>
-    <id>test/1/example/16</id>
+    <id>http://feedbooks.github.io/test/17</id>
     <author>
       <name>Jane Austen</name>
     </author>
