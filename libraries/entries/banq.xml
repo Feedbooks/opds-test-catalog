@@ -1,0 +1,9 @@
+<entry xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
+  <title>Bibliothèques et Archives Nationales du Québec</title>
+  <id>banq.xml</id>
+  <updated>2012-10-20T01:11:18Z</updated>
+  <content>Canada, Québec</content>
+  <link rel="http://opds-spec.org/catalog" href="http://res.banq.qc.ca/login?url=http://res.banq.qc.ca/sso/pretnumerique" type="text/html" title="Pretnumerique.ca" />
+  <link rel="http://opds-spec.org/catalog" href="http://banq.lib.overdrive.com/" type="text/html" title="Overdrive" />
+  <category term="T" scheme="http://opds-spec.org/header" />
+</entry>

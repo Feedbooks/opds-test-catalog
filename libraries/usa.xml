@@ -10,12 +10,13 @@
   
   <entry>
     <title>New York Public Library</title>
-    <id>ny.xml</id>
+    <id>nypl.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
-    <content>New York</content>
+    <content>New York, Manhattan</content>
     <link rel="http://opds-spec.org/catalog" href="http://www.librarysimplified.org/" type="text/html" title="Library Simplified" />
     <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" title="Overdrive" />
     <link rel="http://opds-spec.org/catalog" href="http://ebook.3m.com/library/nypl/" type="text/html" title="3M" />
+    <link rel="alternate" href="entries/nypl.xml" type="application/atom+xml;type=entry" />
     <category term="N" scheme="http://opds-spec.org/header" />
   </entry>
 

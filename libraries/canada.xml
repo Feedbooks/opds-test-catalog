@@ -24,7 +24,7 @@
     <content>Canada, Québec</content>
     <link rel="http://opds-spec.org/catalog" href="http://res.banq.qc.ca/login?url=http://res.banq.qc.ca/sso/pretnumerique" type="text/html" title="Pretnumerique.ca" />
     <link rel="http://opds-spec.org/catalog" href="http://banq.lib.overdrive.com/" type="text/html" title="Overdrive" />
-    <link rel="alternate" href="full_entry.xml" type="application/atom+xml;type=entry" />
+    <link rel="alternate" href="entries/banq.xml" type="application/atom+xml;type=entry" />
     <category term="T" scheme="http://opds-spec.org/header" />
   </entry>
 
