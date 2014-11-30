@@ -13,7 +13,9 @@
     <id>ny.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>New York</content>
-    <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" />
+    <link rel="http://opds-spec.org/catalog" href="http://www.librarysimplified.org/" type="text/html" title="Library Simplified" />
+    <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" title="Overdrive" />
+    <link rel="http://opds-spec.org/catalog" href="http://ebook.3m.com/library/nypl/" type="text/html" title="3M" />
     <category term="N" scheme="http://opds-spec.org/header" />
   </entry>
 
