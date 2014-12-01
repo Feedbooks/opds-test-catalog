@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
   <id>switzerland.xml</id>
-  <title>Switzerland</title>
+  <title>Suisse</title>
 
   <link type="application/atom+xml" rel="self" href="switzerland.xml" />
   <link type="application/atom+xml" rel="start" href="countries.xml" />

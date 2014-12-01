@@ -11,19 +11,25 @@
   <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
   
   <entry>
+    <title>Canada</title>
+    <id>canada.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <link rel="subsection" href="canada.xml" type="application/atom+xml" thr:count="2" />
+    <category term="C" scheme="http://opds-spec.org/header" />
+  </entry>
+
+  <entry>
     <title>France</title>
     <id>france.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
-    <link rel="http://opds-spec.org/image/thumbnail" href="flags/france.gif" type="image/gif" />
     <link rel="subsection" href="france.xml" type="application/atom+xml" thr:count="2" />
     <category term="F" scheme="http://opds-spec.org/header" />
   </entry>
 
   <entry>
-    <title>Switzerland</title>
+    <title>Suisse</title>
     <id>switzerland.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
-    <link rel="http://opds-spec.org/image/thumbnail" href="flags/switzerland.gif" type="image/gif" />
     <link rel="subsection" href="switzerland.xml" type="application/atom+xml" thr:count="3" />
     <category term="S" scheme="http://opds-spec.org/header" />
   </entry>
