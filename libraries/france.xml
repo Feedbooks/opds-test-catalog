@@ -18,6 +18,24 @@
   </entry>
 
   <entry>
+    <title>Réseau des médiathèques Pau-Pyrénées</title>
+    <id>pau.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>France, Aquitaine</content>
+    <link rel="http://opds-spec.org/catalog" href="http://agglo-pau.cantookstation.eu/" type="text/html" title="Réseau des médiathèques Pau-Pyrénées" />
+    <category term="P" scheme="http://opds-spec.org/header" />
+  </entry>
+
+  <entry>
+    <title>Médiathèques de Quimper Communauté</title>
+    <id>quimper.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>France, Bretagne</content>
+    <link rel="http://opds-spec.org/catalog" href="http://quimper-communaute.cantookstation.eu/" type="text/html" title="Médiathèques de Quimper Communauté" />
+    <category term="Q" scheme="http://opds-spec.org/header" />
+  </entry>
+
+  <entry>
     <title>Bibliothèque de Test</title>
     <id>test.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
