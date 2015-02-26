@@ -9,11 +9,13 @@
   <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
   
   <entry>
-    <title>Bibliothèques Montréal</title>
+    <title>Bibliothèques de Montréal</title>
     <id>montreal.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
     <content>Canada, Québec</content>
-    <link rel="http://opds-spec.org/catalog" href="http://bibliomontreal.com/auth_nelligan/" type="text/html" title="Pretnumerique.ca" />
+    <link rel="http://opds-spec.org/catalog" href="http://montreal.pretnumerique.ca/catalog/root.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Catalogue OPDS" />
+    <link rel="http://opds-spec.org/catalog" href="http://bibliomontreal.com/auth_nelligan/" type="text/html" title="Site web" />
+    <link rel="alternate" href="entries/montreal.xml" type="application/atom+xml;type=entry" />
     <category term="M" scheme="http://opds-spec.org/header" />
   </entry>
 
@@ -25,6 +27,17 @@
     <link rel="http://opds-spec.org/catalog" href="http://res.banq.qc.ca/login?url=http://res.banq.qc.ca/sso/pretnumerique" type="text/html" title="Pretnumerique.ca" />
     <link rel="http://opds-spec.org/catalog" href="http://banq.lib.overdrive.com/" type="text/html" title="Overdrive" />
     <link rel="alternate" href="entries/banq.xml" type="application/atom+xml;type=entry" />
+    <category term="Q" scheme="http://opds-spec.org/header" />
+  </entry>
+
+  <entry>
+    <title>Bibliothèques de Québec</title>
+    <id>quebec.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>Canada, Québec</content>
+    <link rel="http://opds-spec.org/catalog" href="http://montreal.pretnumerique.ca/catalog/root.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Catalogue OPDS" />
+    <link rel="http://opds-spec.org/catalog" href="http://quebec.pretnumerique.ca" type="text/html" title="Site web" />
+    <link rel="alternate" href="entries/quebec.xml" type="application/atom+xml;type=entry" />
     <category term="Q" scheme="http://opds-spec.org/header" />
   </entry>
 

@@ -1,0 +1,8 @@
+<entry xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
+  <title>Bibliothèques municipales de Grenoble</title>
+  <id>grenoble.xml</id>
+  <updated>2012-10-20T01:11:18Z</updated>
+  <content>France, Rhône-Alpes</content>
+  <link rel="http://opds-spec.org/catalog" href="http://bibook.bm-grenoble.fr/catalog/root.atom" type="application/atom+xml; profile=opds-catalog; kind=navigation" title="Catalogue OPDS" />
+  <link rel="http://opds-spec.org/catalog" href="http://bibook.bm-grenoble.fr/" type="text/html" title="Bibook" />
+</entry>

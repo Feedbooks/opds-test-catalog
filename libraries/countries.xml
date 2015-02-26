@@ -14,7 +14,7 @@
     <title>Canada</title>
     <id>canada.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
-    <link rel="subsection" href="canada.xml" type="application/atom+xml" thr:count="2" />
+    <link rel="subsection" href="canada.xml" type="application/atom+xml" thr:count="3" />
     <category term="C" scheme="http://opds-spec.org/header" />
   </entry>
 
@@ -22,7 +22,7 @@
     <title>France</title>
     <id>france.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
-    <link rel="subsection" href="france.xml" type="application/atom+xml" thr:count="2" />
+    <link rel="subsection" href="france.xml" type="application/atom+xml" thr:count="4" />
     <category term="F" scheme="http://opds-spec.org/header" />
   </entry>
 
