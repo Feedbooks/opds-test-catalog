@@ -6,7 +6,7 @@
   <link type="application/atom+xml" rel="self" href="countries.xml" title="Browse per country" />
   <link type="application/atom+xml" rel="start" href="countries.xml" />
 
-  <link type="application/atom+xml" rel="http://opds-spec.org/recommended" href="usa.xml" title="Nearby libraries" />
+  <link type="application/atom+xml" rel="http://opds-spec.org/recommended" href="france.xml" title="Nearby libraries" />
 
   <link type="application/opensearchdescription+xml" title="Search libraries" rel="search" href="opensearch.xml" />
   

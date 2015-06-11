@@ -29,6 +29,15 @@
   </entry>
 
   <entry>
+    <title>Bibliothèques de prêt de la Ville de Paris</title>
+    <id>paris.xml</id>
+    <updated>2012-10-20T01:11:18Z</updated>
+    <content>France, Île-de-France</content>
+    <link rel="http://opds-spec.org/catalog" href="http://bibliotheque-numerique-paris.bibliondemand.com/accueil-ermes.aspx" type="text/html" title="Site Web" />
+    <category term="P" scheme="http://opds-spec.org/header" />
+  </entry>
+
+  <entry>
     <title>Médiathèques de Quimper Communauté</title>
     <id>quimper.xml</id>
     <updated>2012-10-20T01:11:18Z</updated>
