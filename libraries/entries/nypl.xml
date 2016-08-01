@@ -1,9 +1,0 @@
-<entry xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
-  <title>New York Public Library</title>
-  <id>nypl.xml</id>
-  <updated>2012-10-20T01:11:18Z</updated>
-  <content>New York, Manhattan</content>
-  <link rel="http://opds-spec.org/catalog" href="http://ebooks.nypl.org/" type="text/html" title="Overdrive" />
-  <link rel="http://opds-spec.org/catalog" href="http://www.librarysimplified.org/" type="text/html" title="Library Simplified" />
-  <category term="N" scheme="http://opds-spec.org/header" />
-</entry>
