@@ -9,7 +9,7 @@
   </author>
   
   <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="self" href="openlibrary.opds" />
-  <link type="application/opensearchdescription+xml" title="Search on test catalog" rel="search" href="openlibrary-search.xml" />
+  <link type="application/opensearchdescription+xml" title="Search on OpenLibrary" rel="search" href="openlibrary-search.xml" />
   
   <opensearch:totalResults>5</opensearch:totalResults>
   
