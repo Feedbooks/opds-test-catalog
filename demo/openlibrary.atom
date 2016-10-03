@@ -31,8 +31,8 @@
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
     <category term="/subjects/in_library" label="In library"/>
     <dcterms:language>en</dcterms:language>
-    <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6610046-L.jpg"/>
-    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6610046-S.jpg"/>
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6610046-L.jpg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6610046-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL9499030M/Hegira/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
@@ -65,8 +65,8 @@
     <category term="/subjects/in_library" label="In library"/>
     <summary>In seventeenth-century England, orphaned Philip Marsham, forced to flee London after a terrible accident, finds himself in an even more difficult situation when his ship is taken over by pirates and he is forced to become a member of their crew.</summary>
     <dcterms:language>en</dcterms:language>
-    <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6616553-L.jpg"/>
-    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6616553-S.jpg"/>
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6616553-L.jpg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6616553-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL624858M/The_dark_frigate/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
@@ -96,8 +96,8 @@
     <category term="/subjects/accessible_book" label="Accessible book"/>
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
     <dcterms:language>en</dcterms:language>
-    <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6620804-L.jpg"/>
-    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6620804-S.jpg"/>
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6620804-L.jpg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6620804-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL23246375M/The_bride_of_Willow_Creek/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
@@ -128,8 +128,8 @@
     <category term="/subjects/in_library" label="In library"/>
     <summary>Corky is tormented night after night by dreams of her dead sister, Bobbi.  What terrifying message is Bobbi trying to tell her? When the evil begins again-more horrible, more gruesome than ever-Corky knows it is up to her to learn the century-old secrets and destroy the evil spirit's power for good. But so many have died already-will Corky be next?</summary>
     <dcterms:language>en</dcterms:language>
-    <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6621067-L.jpg"/>
-    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6621067-S.jpg"/>
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6621067-L.jpg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6621067-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL1151968M/Cheerleaders/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
@@ -158,8 +158,8 @@
     <category term="/subjects/diseases" label="Diseases"/>
     <category term="/subjects/in_library" label="In library"/>
     <dcterms:language>en</dcterms:language>
-    <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6723880-L.jpg"/>
-    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6723880-S.jpg"/>
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6723880-L.jpg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="https://covers.openlibrary.org/b/id/6723880-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL370389M/Natural_cat_care/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
