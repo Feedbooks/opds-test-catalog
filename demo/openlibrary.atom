@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom" xmlns:rdvocab="http://RDVocab.info/elements/" xmlns:bibo="http://purl.org/ontology/bibo/">
-  <id>main.xml</id>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/Atom">
+  <id>openlibrary.atom</id>
   <title>OpenLibrary Demo</title>
   <updated>2012-10-20T01:11:18Z</updated>
   <author>
@@ -16,7 +16,6 @@
   
   <entry>
     <id>https://openlibrary.org/books/OL9499030M.opds</id>
-    <link rel="alternate" type="text/html" href="https://openlibrary.org/books/OL9499030M/Hegira"/>
     <title>Hegira</title>
     <updated>2011-08-12T01:40:18Z</updated>
     <author>
@@ -25,18 +24,13 @@
     </author>
     <dcterms:publisher>Tor Books</dcterms:publisher>
     <dcterms:issued>January 15, 1989</dcterms:issued>
-    <rdvocab:dimensions>6.8 x 4.2 x 0.5 inches</rdvocab:dimensions>
     <category term="/subjects/overdrive" label="OverDrive"/>
     <category term="/subjects/fiction" label="Fiction"/>
     <category term="/subjects/science_fiction_&amp;_fantasy" label="Science Fiction &amp; Fantasy"/>
     <category term="/subjects/accessible_book" label="Accessible book"/>
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
     <category term="/subjects/in_library" label="In library"/>
-    <dcterms:language>eng</dcterms:language>
-    <dcterms:identifier xsi:type="dcterms:URI">https://openlibrary.org/books/OL9499030M</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:URI">https://archive.org/details/hegira00bear</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:0812531639</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:9780812531633</dcterms:identifier>
+    <dcterms:language>en</dcterms:language>
     <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6610046-L.jpg"/>
     <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6610046-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL9499030M/Hegira/borrow">
@@ -52,7 +46,6 @@
 
   <entry>
     <id>https://openlibrary.org/books/OL624858M.opds</id>
-    <link rel="alternate" type="text/html" href="https://openlibrary.org/books/OL624858M/The_dark_frigate"/>
     <title>The dark frigate</title>
     <updated>2011-08-11T23:40:24Z</updated>
     <author>
@@ -60,7 +53,6 @@
       <uri>https://openlibrary.org/authors/OL368154A/Charles_Boardman_Hawes</uri>
     </author>
     <dcterms:publisher>Little, Brown</dcterms:publisher>
-    <rdvocab:placeOfPublication>Boston</rdvocab:placeOfPublication>
     <dcterms:issued>1996</dcterms:issued>
     <dcterms:extent>xiii, 246 p. ;</dcterms:extent>
     <category term="/subjects/fiction" label="Fiction"/>
@@ -72,13 +64,7 @@
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
     <category term="/subjects/in_library" label="In library"/>
     <summary>In seventeenth-century England, orphaned Philip Marsham, forced to flee London after a terrible accident, finds himself in an even more difficult situation when his ship is taken over by pirates and he is forced to become a member of their crew.</summary>
-    <rdvocab:note>"Age 12 and up"--P. [4] of cover.
-  "Wherein is told the story of Philip Marsham who lived in the time of King Charles and was bred a sailor but came home to England after many hazards by sea and land and fought for the King at Newbury and lost a great inheritance and departed for Barbados in the same ship, by curious chance, in which he had long before adventured with the pirates."</rdvocab:note>
-    <dcterms:language>eng</dcterms:language>
-    <dcterms:identifier xsi:type="dcterms:URI">https://openlibrary.org/books/OL624858M</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:URI">https://archive.org/details/darkfrigate00hawe</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:0316350095</dcterms:identifier>
-    <bibo:lccn>96224780</bibo:lccn>
+    <dcterms:language>en</dcterms:language>
     <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6616553-L.jpg"/>
     <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6616553-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL624858M/The_dark_frigate/borrow">
@@ -94,7 +80,6 @@
 
   <entry>
     <id>https://openlibrary.org/books/OL23246375M.opds</id>
-    <link rel="alternate" type="text/html" href="https://openlibrary.org/books/OL23246375M/The_bride_of_Willow_Creek"/>
     <title>The bride of Willow Creek</title>
     <updated>2011-08-11T22:33:05Z</updated>
     <author>
@@ -102,20 +87,15 @@
       <uri>https://openlibrary.org/authors/OL1189616A/Maggie_Osborne</uri>
     </author>
     <dcterms:publisher>Ivy Books</dcterms:publisher>
-    <rdvocab:placeOfPublication>New York</rdvocab:placeOfPublication>
     <dcterms:issued>2001</dcterms:issued>
     <dcterms:extent>358 p. ;</dcterms:extent>
-    <bibo:edition>1st ed.</bibo:edition>
     <category term="/subjects/fiction" label="Fiction"/>
     <category term="/subjects/married_women" label="Married women"/>
     <category term="/subjects/women_pioneers" label="Women pioneers"/>
     <category term="/subjects/frontier_and_pioneer_life" label="Frontier and pioneer life"/>
     <category term="/subjects/accessible_book" label="Accessible book"/>
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
-    <dcterms:language>eng</dcterms:language>
-    <dcterms:identifier xsi:type="dcterms:URI">https://openlibrary.org/books/OL23246375M</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:URI">https://archive.org/details/brideofwillowcre00osbo</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:0449005186</dcterms:identifier>
+    <dcterms:language>en</dcterms:language>
     <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6620804-L.jpg"/>
     <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6620804-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL23246375M/The_bride_of_Willow_Creek/borrow">
@@ -139,7 +119,6 @@
       <uri>https://openlibrary.org/authors/OL35524A/R._L._Stine</uri>
     </author>
     <dcterms:publisher>Pocket Books</dcterms:publisher>
-    <rdvocab:placeOfPublication>New York</rdvocab:placeOfPublication>
     <dcterms:issued>1992</dcterms:issued>
     <dcterms:extent>165 p. ;</dcterms:extent>
     <category term="/subjects/horror_stories" label="Horror stories"/>
@@ -148,13 +127,7 @@
     <category term="/subjects/protected_daisy" label="Protected DAISY"/>
     <category term="/subjects/in_library" label="In library"/>
     <summary>Corky is tormented night after night by dreams of her dead sister, Bobbi.  What terrifying message is Bobbi trying to tell her? When the evil begins again-more horrible, more gruesome than ever-Corky knows it is up to her to learn the century-old secrets and destroy the evil spirit's power for good. But so many have died already-will Corky be next?</summary>
-    <rdvocab:note>"An Archway paperback."
-  Source: Copyright deposit, Dec. 15, 1992.</rdvocab:note>
-    <dcterms:language>eng</dcterms:language>
-    <dcterms:identifier xsi:type="dcterms:URI">https://openlibrary.org/books/OL1151968M</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:URI">https://archive.org/details/cheerleadersthir00stin</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:0671751190</dcterms:identifier>
-    <bibo:lccn>94126530</bibo:lccn>
+    <dcterms:language>en</dcterms:language>
     <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6621067-L.jpg"/>
     <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6621067-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL1151968M/Cheerleaders/borrow">
@@ -170,7 +143,6 @@
 
   <entry>
     <id>https://openlibrary.org/books/OL370389M.opds</id>
-    <link rel="alternate" type="text/html" href="https://openlibrary.org/books/OL370389M/Natural_cat_care"/>
     <title>Natural cat care</title>
     <updated>2014-05-17T15:30:44Z</updated>
     <author>
@@ -178,22 +150,14 @@
       <uri>https://openlibrary.org/authors/OL20144A/Bruce_Fogle</uri>
     </author>
     <dcterms:publisher>DK Pub.</dcterms:publisher>
-    <rdvocab:placeOfPublication>New York</rdvocab:placeOfPublication>
     <dcterms:issued>1999</dcterms:issued>
     <dcterms:extent>160 p. :</dcterms:extent>
-    <bibo:edition>1st American ed.</bibo:edition>
     <category term="/subjects/cats" label="Cats"/>
     <category term="/subjects/alternative_treatment" label="Alternative treatment"/>
     <category term="/subjects/health" label="Health"/>
     <category term="/subjects/diseases" label="Diseases"/>
     <category term="/subjects/in_library" label="In library"/>
-    <rdvocab:note>Includes bibliographical references (p. 160) and index.</rdvocab:note>
-    <dcterms:language>eng</dcterms:language>
-    <dcterms:identifier xsi:type="dcterms:URI">https://openlibrary.org/books/OL370389M</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:URI">https://archive.org/details/naturalcatcare00fogl</dcterms:identifier>
-    <dcterms:identifier xsi:type="dcterms:ISBN">urn:ISBN:0789441233</dcterms:identifier>
-    <bibo:oclcnum>39763742</bibo:oclcnum>
-    <bibo:lccn>98031107</bibo:lccn>
+    <dcterms:language>en</dcterms:language>
     <link rel="http://opds-spec.org/image" type="image/jpeg" href="//covers.openlibrary.org/b/id/6723880-L.jpg"/>
     <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="//covers.openlibrary.org/b/id/6723880-S.jpg"/>
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL370389M/Natural_cat_care/borrow">
