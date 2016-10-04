@@ -36,7 +36,6 @@
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL9499030M/Hegira/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
-        <opds:indirectAcquisition type="application/pdf"/>
       </opds:indirectAcquisition>
     </link>
     <link rel="related" type="text/html" href="https://openlibrary.org/works/OL16517W" title="Open Library Work"/>
@@ -70,7 +69,6 @@
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL624858M/The_dark_frigate/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
-        <opds:indirectAcquisition type="application/pdf"/>
       </opds:indirectAcquisition>
     </link>
     <link rel="related" type="text/html" href="https://openlibrary.org/works/OL2575594W" title="Open Library Work"/>
@@ -101,7 +99,6 @@
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL23246375M/The_bride_of_Willow_Creek/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
-        <opds:indirectAcquisition type="application/pdf"/>
       </opds:indirectAcquisition>
     </link>
     <link rel="related" type="text/html" href="https://openlibrary.org/works/OL5261208W" title="Open Library Work"/>
@@ -133,7 +130,6 @@
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL1151968M/Cheerleaders/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
-        <opds:indirectAcquisition type="application/pdf"/>
       </opds:indirectAcquisition>
     </link>
     <link rel="related" type="text/html" href="https://openlibrary.org/works/OL15095112W" title="Open Library Work"/>
@@ -163,7 +159,6 @@
     <link rel="http://opds-spec.org/acquisition/borrow" type="text/html" href="https://openlibrary.org/books/OL370389M/Natural_cat_care/borrow">
       <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
         <opds:indirectAcquisition type="application/epub+zip"/>
-        <opds:indirectAcquisition type="application/pdf"/>
       </opds:indirectAcquisition>
     </link>
     <link rel="related" type="text/html" href="https://openlibrary.org/works/OL15219327W" title="Open Library Work"/>
