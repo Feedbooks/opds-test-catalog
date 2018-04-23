@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "OPDS 2.0 Test Catalog"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/home.json", "type": "application/opds+json"}
+  ],
+  
+  "navigation": [
+        {
+          "href": "top.json", 
+          "title": "Best Selling", 
+      	  "type": "application/opds+json", 
+          "rel": "http://opds-spec.org/sort/popular"
+        },
+        {
+          "href": "new.json", 
+          "title": "New Releases", 
+          "type": "application/opds+json", 
+          "rel": "http://opds-spec.org/sort/new"
+        },
+        {
+          "href": "picks.json", 
+          "title": "Staff Picks", 
+          "type": "application/opds+json"
+        },
+        {
+          "href": "categories.json", 
+          "title": "Categories", 
+          "type": "application/opds+json"
+        }
+      ],
+
+  "groups": [
+    {
+      "metadata": {
+        "title": "French Classics",
+        "numberOfItems": 5
+      },
+      "publications": [
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Voyage au centre de la Terre",
+            "author": {"name": "Jules Verne", "sort_as": "Verne, Jules"},
+            "identifier": "http://fr.feedbooks.com/book/1474/voyage-au-centre-de-la-terre",
+            "language": "fr",
+            "modified": "2018-04-23T22:15:00Z",
+            "published": "1864",
+            "publisher": "Feedbooks",
+            "numberOfPages": 251,
+            "subjects": [
+              {
+                "name": "Science Fiction",
+                "code": "FBFIC028000"
+              },
+              {
+                "name": "Action & Aventure",
+                "code": "FBFIC002000"
+              }
+            ],
+            "description": "Le professeur Lidenbrock trouve un document dans lequel il apprend l'existence d'un volcan éteint dont la cheminée pourrait le conduire jusqu'au centre de la Terre. Accompagné de son neveu Axel et du guide Hans, il se rend au volcan Sneffels, en Islande, et s'engouffre dans les entrailles de la Terre. Ils ne tarderont pas à faire d'étonnantes découvertes..."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "../assets/centredelaterre/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "../assets/centredelaterre/small.jpg", "type": "image/jpeg", "height": 110, "width": 146},
+            {"href": "../assets/centredelaterre/normal.jpg", "type": "image/jpeg", "height": 346, "width": 260}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Le Rouge et le Noir",
+            "sort_as": "Rouge et le Noir, Le",
+            "author": "Stendhal",
+            "identifier": "http://fr.feedbooks.com/book/220/le-rouge-et-le-noir",
+            "language": "fr",
+            "modified": "2018-04-23T22:25:00Z",
+            "published": "1834",
+            "publisher": "Feedbooks",
+            "description": "Au rouge des armes, Julien Sorel préfèrera le noir des ordres. Au cours de son ascension sociale, deux femmes se singularisent, comme pour figurer les deux penchants de son caractère : Madame de Rênal - le rêve, l'aspiration à un bonheur pur et simple - et Mathilde de La Mole - l'énergie, l'action brillante et fébrile. A ces composantes stendhaliennes (conception de la vie qui dépasse la stratégie narrative pour s'étendre à l'existence de l'auteur) correspondent deux facettes stylistiques : la sobriété et la restriction du champ de vision."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "../assets/rougenoir/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "../assets/rougenoir/small.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image/thumbnail"},
+            {"href": "../assets/rougenoir/normal.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image"}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Le Mystère de la chambre jaune",
+            "sort_as": "Mystère de la chambre jaune, Le",
+            "author": {"name": "Gaston Leroux", "sort_as": "Leroux, Gaston"},
+            "identifier": "http://fr.feedbooks.com/book/588/le-myst%C3%A8re-de-la-chambre-jaune",
+            "language": "fr",
+            "modified": "2018-04-23T22:32:00Z",
+            "published": "1907",
+            "publisher": "Feedbooks",
+            "description": "Imaginez-vous devant un coffre fort fermé, où vous entendriez quelqu'un crier à l'aide , vous ouvrez et, vous ne trouvez que la victime. Par où l'assassin est-il parti ? C'est le Mystère de la chambre jaune... La plus célèbre des aventures de Rouletabille..."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/chambrejaune/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/chambrejaune/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/chambrejaune/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Madame Bovary",
+            "author": {"name": "Gustave Flaubert", "sort_as": "Flaubert, Gustave"},
+            "identifier": "http://fr.feedbooks.com/book/386/madame-bovary",
+            "language": "fr",
+            "modified": "2018-04-23T22:53:00Z",
+            "published": "1857",
+            "publisher": "Feedbooks",
+            "description": "Charles Bovary, après avoir suivi ses études dans un lycée de province, s'établit comme officier de santé et se marie à une riche veuve. À la mort de celle-ci, Charles épouse une jeune femme, Emma Rouault, élevée dans un couvent, vivant à la ferme avec son père (un riche fermier, patient du jeune médecin). Emma se laisse séduire par Charles et se marie avec lui. Fascinée par ses lectures romantiques, elle rêve d’une nouvelle vie, en compagnie de son nouveau mari."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/bovary/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/bovary/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/bovary/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Du côté de chez Swann",
+            "author": {"name": "Marcel Proust", "sort_as": "Proust, Marcel"},
+            "identifier": "http://fr.feedbooks.com/book/4/du-c%C3%B4t%C3%A9-de-chez-swann",
+            "language": "fr",
+            "modified": "2018-04-23T22:56:00Z",
+            "published": "1913",
+            "publisher": "Feedbooks",
+            "belongs_to": {
+              "series": {
+                "name": "À la recherche du temps perdu",
+                "position": 1
+              }
+            },
+            "description": "Du côté de chez Swann est un roman de Marcel Proust, c'est le premier volume de À la recherche du temps perdu. Il est composé de trois parties, dont les titres sont : Combray, Un amour de Swann et Nom de pays : le nom."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/swann/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/swann/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/swann/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "More Navigation"
+      },
+      "navigation": [
+        {"href": "french.json", "title": "French Books", "type": "application/opds+json"},
+        {"href": "english.json", "title": "English Books", "type": "application/opds+json"}
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "metadata": {
+        "@type": "http://schema.org/Book",
+        "title": "Moby-Dick",
+        "author": {"name": "Herman Melville", "sort_as": "Melville, Herman"},
+        "identifier": "http://www.feedbooks.com/book/54/moby-dick",
+        "language": "en",
+        "modified": "2018-04-23T23:18:00Z",
+        "published": "1851",
+        "publisher": "Feedbooks",
+        "description": "Moby-Dick is an 1851 novel by Herman Melville. The story tells the adventures of the wandering sailor Ishmael and his voyage on the whaling ship Pequod, commanded by Captain Ahab. Ishmael soon learns that Ahab seeks one specific whale, Moby-Dick, a white whale of tremendous size and ferocity. Comparatively few whaling ships know of Moby-Dick, and fewer yet have encountered him. In a previous encounter, the whale destroyed Ahab's boat and bit off his leg. Ahab intends to exact revenge."
+      },
+      "links": [
+        {
+          "rel": "http://opds-spec.org/acquisition/open-access", 
+          "href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/file.epub", 
+          "type": "application/webpub+json"
+        }
+      ],
+      "images": [
+        {"href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+        {"href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+      ]
+    }
+  ]
+}
