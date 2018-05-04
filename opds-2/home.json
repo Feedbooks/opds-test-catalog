@@ -8,29 +8,29 @@
   ],
   
   "navigation": [
-        {
-          "href": "top.json", 
-          "title": "Best Selling", 
-      	  "type": "application/opds+json", 
-          "rel": "http://opds-spec.org/sort/popular"
-        },
-        {
-          "href": "new.json", 
-          "title": "New Releases", 
-          "type": "application/opds+json", 
-          "rel": "http://opds-spec.org/sort/new"
-        },
-        {
-          "href": "picks.json", 
-          "title": "Staff Picks", 
-          "type": "application/opds+json"
-        },
-        {
-          "href": "categories.json", 
-          "title": "Categories", 
-          "type": "application/opds+json"
-        }
-      ],
+    {
+      "href": "home.json", 
+      "title": "Best Selling", 
+      "type": "application/opds+json", 
+      "rel": "http://opds-spec.org/sort/popular"
+    },
+    {
+      "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/home.json", 
+      "title": "New Releases", 
+      "type": "application/opds+json", 
+      "rel": "http://opds-spec.org/sort/new"
+    },
+    {
+      "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/home.json", 
+      "title": "Staff Picks", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "404.json", 
+      "title": "404 error handling", 
+      "type": "application/opds+json"
+    }
+  ],
 
   "groups": [
     {
@@ -38,14 +38,20 @@
         "title": "French Classics",
         "numberOfItems": 5
       },
+      "links": [
+        {"rel": "self", "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/french.json", "type": "application/opds+json"}
+      ],
       "publications": [
         {
           "metadata": {
             "@type": "http://schema.org/Book",
-            "title": "Voyage au centre de la Terre",
+            "title": {
+              "fr": "Voyage au centre de la Terre",
+              "en": "Journey to the Center of the Earth"
+            },
             "author": {"name": "Jules Verne", "sort_as": "Verne, Jules"},
             "identifier": "http://fr.feedbooks.com/book/1474/voyage-au-centre-de-la-terre",
-            "language": "fr",
+            "language": ["fr", "en"],
             "modified": "2018-04-23T22:15:00Z",
             "published": "1864",
             "publisher": "Feedbooks",
@@ -66,7 +72,7 @@
             {
               "rel": "http://opds-spec.org/acquisition/open-access", 
               "href": "../assets/centredelaterre/file.epub", 
-              "type": "application/webpub+json"
+              "type": "application/epub+zip"
             }
           ],
           "images": [
@@ -78,25 +84,31 @@
           "metadata": {
             "@type": "http://schema.org/Book",
             "title": "Le Rouge et le Noir",
+            "subtitle": "Chronique du XIXe siècle",
             "sort_as": "Rouge et le Noir, Le",
-            "author": "Stendhal",
+            "author": ["Stendhal", "Second Name For Testing"],
             "identifier": "http://fr.feedbooks.com/book/220/le-rouge-et-le-noir",
             "language": "fr",
             "modified": "2018-04-23T22:25:00Z",
             "published": "1834",
             "publisher": "Feedbooks",
+            "subjects": [
+              {
+                "code": "FBFIC019000"
+              }
+            ],
             "description": "Au rouge des armes, Julien Sorel préfèrera le noir des ordres. Au cours de son ascension sociale, deux femmes se singularisent, comme pour figurer les deux penchants de son caractère : Madame de Rênal - le rêve, l'aspiration à un bonheur pur et simple - et Mathilde de La Mole - l'énergie, l'action brillante et fébrile. A ces composantes stendhaliennes (conception de la vie qui dépasse la stratégie narrative pour s'étendre à l'existence de l'auteur) correspondent deux facettes stylistiques : la sobriété et la restriction du champ de vision."
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/open-access", 
-              "href": "../assets/rougenoir/file.epub", 
-              "type": "application/webpub+json"
+              "rel": "http://opds-spec.org/acquisition", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/rougenoir/file.epub", 
+              "type": "application/epub+zip"
             }
           ],
           "images": [
-            {"href": "../assets/rougenoir/small.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image/thumbnail"},
-            {"href": "../assets/rougenoir/normal.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image"}
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/rougenoir/small.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image/thumbnail"},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/rougenoir/normal.jpg", "type": "image/jpeg", "rel": "http://opds-spec.org/image"}
           ]
         },
         {
@@ -114,9 +126,15 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "rel": "http://opds-spec.org/acquisition/buy", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/chambrejaune/file.epub", 
-              "type": "application/webpub+json"
+              "type": "application/epub+zip",
+              "properties": {
+                "price": {
+                  "currency": "USD",
+                  "value": 4.99
+                }
+              }
             }
           ],
           "images": [
@@ -138,9 +156,9 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "rel": "http://opds-spec.org/acquisition/sample", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/bovary/file.epub", 
-              "type": "application/webpub+json"
+              "type": "application/epub+zip"
             }
           ],
           "images": [
@@ -162,15 +180,16 @@
               "series": {
                 "name": "À la recherche du temps perdu",
                 "position": 1
-              }
+              },
+              "collection": "Domaine Public"
             },
             "description": "Du côté de chez Swann est un roman de Marcel Proust, c'est le premier volume de À la recherche du temps perdu. Il est composé de trois parties, dont les titres sont : Combray, Un amour de Swann et Nom de pays : le nom."
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "rel": "http://opds-spec.org/acquisition/borrow", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/swann/file.epub", 
-              "type": "application/webpub+json"
+              "type": "application/epub+zip"
             }
           ],
           "images": [
@@ -185,8 +204,88 @@
         "title": "More Navigation"
       },
       "navigation": [
-        {"href": "french.json", "title": "French Books", "type": "application/opds+json"},
-        {"href": "english.json", "title": "English Books", "type": "application/opds+json"}
+        {"href": "https://feedbooks.github.io/opds-test-catalog/opds-2/home.json", "title": "French Books", "type": "application/opds+json"},
+        {"href": "https://feedbooks.github.io/opds-test-catalog/opds-2/home.json", "title": "English Books", "type": "application/opds+json"}
+      ]
+    },
+    {
+      "metadata": {
+        "title": "English Classics",
+        "numberOfItems": 3
+      },
+      "publications": [
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Moby-Dick",
+            "author": {"name": "Herman Melville", "sort_as": "Melville, Herman"},
+            "identifier": "http://www.feedbooks.com/book/54/moby-dick",
+            "language": "en",
+            "modified": "2018-04-23T23:18:00Z",
+            "published": "1851",
+            "publisher": "Feedbooks",
+            "description": "Moby-Dick is an 1851 novel by Herman Melville. The story tells the adventures of the wandering sailor Ishmael and his voyage on the whaling ship Pequod, commanded by Captain Ahab. Ishmael soon learns that Ahab seeks one specific whale, Moby-Dick, a white whale of tremendous size and ferocity. Comparatively few whaling ships know of Moby-Dick, and fewer yet have encountered him. In a previous encounter, the whale destroyed Ahab's boat and bit off his leg. Ahab intends to exact revenge."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/moby/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Romeo and Juliet",
+            "author": {"name": "William Shakespeare", "sort_as": "Shakespeare, William"},
+            "identifier": "http://www.feedbooks.com/book/2936/romeo-and-juliet",
+            "language": "en",
+            "modified": "2018-05-04T19:28:00Z",
+            "published": "1597",
+            "publisher": "Feedbooks",
+            "description": "Romeo and Juliet is a tragic play written early in the career of William Shakespeare about two teenage star-cross'd lovers whose untimely deaths ultimately unite their feuding households. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/romeo/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/romeo/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/romeo/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Jane Eyre",
+            "author": {"name": "Charlotte Brontë", "sort_as": "Brontë, Charlotte"},
+            "identifier": "http://www.feedbooks.com/book/144/jane-eyre",
+            "language": "en",
+            "modified": "2018-05-04T19:32:00Z",
+            "published": "1847",
+            "publisher": "Feedbooks",
+            "description": "Jane Eyre, the story of a young girl and her passage into adulthood, was an immediate commercial success at the time of its original publication in 1847. Its representation of the underside of domestic life and the hypocrisy behind religious enthusiasm drew both praise and bitter criticism, while Charlotte Brontë's striking expose of poor living conditions for children in charity schools as well as her poignant portrayal of the limitations faced by women who worked as governesses sparked great controversy and social debate. Jane Eyre, Brontë's best-known novel, remains an extraordinary coming-of-age narrative, and one of the great classics of literature."
+          },
+          "links": [
+            {
+              "rel": "http://opds-spec.org/acquisition/open-access", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/eyre/file.epub", 
+              "type": "application/webpub+json"
+            }
+          ],
+          "images": [
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/eyre/small.jpg", "type": "image/jpeg", "height": 169, "width": 110},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/eyre/normal.jpg", "type": "image/jpeg", "height": 400, "width": 260}
+          ]
+        }
       ]
     }
   ],
