@@ -29,6 +29,11 @@
       "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/404.json", 
       "title": "Categories (404)", 
       "type": "application/opds+json"
+    },
+    {
+      "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/navigation.json", 
+      "title": "Explore (Navigation Feed)", 
+      "type": "application/opds+json"
     }
   ],
 
@@ -39,7 +44,7 @@
         "numberOfItems": 5
       },
       "links": [
-        {"rel": "self", "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/french.json", "type": "application/opds+json"}
+        {"rel": "self", "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/publications.json", "type": "application/opds+json"}
       ],
       "publications": [
         {
