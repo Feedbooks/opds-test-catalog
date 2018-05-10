@@ -34,6 +34,11 @@
       "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/navigation.json", 
       "title": "Explore (Navigation Feed)", 
       "type": "application/opds+json"
+    },
+    {
+      "href": "https://feedbooks.github.io/opds-test-catalog/opds-2/publications.json", 
+      "title": "French Books (Publications Feed)", 
+      "type": "application/opds+json"
     }
   ],
 
@@ -50,13 +55,10 @@
         {
           "metadata": {
             "@type": "http://schema.org/Book",
-            "title": {
-              "fr": "Voyage au centre de la Terre",
-              "en": "Journey to the Center of the Earth"
-            },
+            "title": "Voyage au centre de la Terre",
             "author": {"name": "Jules Verne", "sort_as": "Verne, Jules"},
             "identifier": "http://fr.feedbooks.com/book/1474/voyage-au-centre-de-la-terre",
-            "language": ["fr", "en"],
+            "language": "fr",
             "modified": "2018-04-23T22:15:00Z",
             "published": "1864",
             "publisher": "Feedbooks",
@@ -76,13 +78,13 @@
           "links": [
             {
               "rel": "http://opds-spec.org/acquisition/open-access", 
-              "href": "../assets/centredelaterre/file.epub", 
+              "href": "https://feedbooks.github.io/opds-test-catalog/assets/centredelaterre/file.epub", 
               "type": "application/epub+zip"
             }
           ],
           "images": [
-            {"href": "../assets/centredelaterre/small.jpg", "type": "image/jpeg", "height": 110, "width": 146},
-            {"href": "../assets/centredelaterre/normal.jpg", "type": "image/jpeg", "height": 346, "width": 260}
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/centredelaterre/small.jpg", "type": "image/jpeg", "height": 110, "width": 146},
+            {"href": "https://feedbooks.github.io/opds-test-catalog/assets/centredelaterre/normal.jpg", "type": "image/jpeg", "height": 346, "width": 260}
           ]
         },
         {
@@ -91,17 +93,12 @@
             "title": "Le Rouge et le Noir",
             "subtitle": "Chronique du XIXe siècle",
             "sort_as": "Rouge et le Noir, Le",
-            "author": ["Stendhal", "Second Name For Testing"],
+            "author": "Stendhal",
             "identifier": "http://fr.feedbooks.com/book/220/le-rouge-et-le-noir",
             "language": "fr",
             "modified": "2018-04-23T22:25:00Z",
             "published": "1834",
             "publisher": "Feedbooks",
-            "subjects": [
-              {
-                "code": "FBFIC019000"
-              }
-            ],
             "description": "Au rouge des armes, Julien Sorel préfèrera le noir des ordres. Au cours de son ascension sociale, deux femmes se singularisent, comme pour figurer les deux penchants de son caractère : Madame de Rênal - le rêve, l'aspiration à un bonheur pur et simple - et Mathilde de La Mole - l'énergie, l'action brillante et fébrile. A ces composantes stendhaliennes (conception de la vie qui dépasse la stratégie narrative pour s'étendre à l'existence de l'auteur) correspondent deux facettes stylistiques : la sobriété et la restriction du champ de vision."
           },
           "links": [
@@ -185,8 +182,7 @@
               "series": {
                 "name": "À la recherche du temps perdu",
                 "position": 1
-              },
-              "collection": "Domaine Public"
+              }
             },
             "description": "Du côté de chez Swann est un roman de Marcel Proust, c'est le premier volume de À la recherche du temps perdu. Il est composé de trois parties, dont les titres sont : Combray, Un amour de Swann et Nom de pays : le nom."
           },
