@@ -103,7 +103,7 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition", 
+              "rel": "http://opds-spec.org/acquisition/open-access", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/rougenoir/file.epub", 
               "type": "application/epub+zip"
             }
@@ -128,15 +128,9 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/buy", 
+              "rel": "http://opds-spec.org/acquisition/open-access", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/chambrejaune/file.epub", 
-              "type": "application/epub+zip",
-              "properties": {
-                "price": {
-                  "currency": "USD",
-                  "value": 4.99
-                }
-              }
+              "type": "application/epub+zip"
             }
           ],
           "images": [
@@ -158,7 +152,7 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/sample", 
+              "rel": "http://opds-spec.org/acquisition/open-access", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/bovary/file.epub", 
               "type": "application/epub+zip"
             }
@@ -188,7 +182,7 @@
           },
           "links": [
             {
-              "rel": "http://opds-spec.org/acquisition/borrow", 
+              "rel": "http://opds-spec.org/acquisition/open-access", 
               "href": "https://feedbooks.github.io/opds-test-catalog/assets/swann/file.epub", 
               "type": "application/epub+zip"
             }
