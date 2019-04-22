@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="OPDS Test Catalog : OPDS-каталог, предназначенный для тестирования поддержки клиентов возможностей OPDS" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <script src="javascripts/main.js"></script>
+
+    <title>OPDS Test Catalog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Feedbooks/opds-test-catalog">Смотреть на GitHub</a>
+          <a class="lang_select" href="index.en.html">en</a>
+          <a class="lang_select" href="index.ru.html">ru</a>
+
+          <h1 id="project_title">OPDS Test Catalog</h1>
+          <h2 id="project_tagline">OPDS-каталог, предназначенный для тестирования поддержки клиентов возможностей OPDS</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Feedbooks/opds-test-catalog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Feedbooks/opds-test-catalog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>Проверьте вашего OPDS-клиента</h2>
+
+<p><a href="http://opds-spec.org">Спецификация OPDS</a> предоставляет ограниченные средства проверки каталогов (через <a href="http://opds-spec.org/specs/opds-catalog-1-1-20110627/#Appendix_B._RELAX_NG_Compact_Schema">Relax NG Compact Schema</a>), но не клиентов.
+Этот каталог предназначен обеспечить лёгкий способ разработчику испытать его клиента и проверить, какие свойства реализованы правильно.</p>
+
+<p>Для проверки вашего клиента, вы можете вручную добавить URL этого каталога, размещённого на GitHub Pages: <a href="http://feedbooks.github.io/opds-test-catalog/catalog/root.xml">http://feedbooks.github.io/opds-test-catalog/catalog/root.xml</a></p>
+
+<p>Вы можете провести начальный тест и проверить, поддерживает ли клиент OPDSную схему URI: <a href="opds://feedbooks.github.io/opds-test-catalog/catalog/root.xml">opds://feedbooks.github.io/opds-test-catalog/catalog/root.xml</a></p>
+
+<p>Ещё один полезный тест процедур обратного вызова (callback) &mdash; попробовать прямую ссылку на конкретную запись: <a href="opds://www.feedbooks.com/book/45.atom">opds://www.feedbooks.com/book/45.atom</a></p>
+
+
+<h2>Свойства</h2>
+
+<p>Текущая версия каталога разработана для проверки 50+ свойств, которые мы как-то сгруппировали.</p>
+
+<h3>Каталог</h3>
+
+<ul>
+<li>Явное различие между навигацией и получением</li>
+<li>Навигационная часть</li>
+<li>Получательная часть</li>
+<li>Постраничная разбивка</li>
+<li>Поиск</li>
+<li>Полные записи</li>
+</ul>
+
+<h3>Метаданные и картинки</h3>
+
+<ul>
+<li>Представление изоображений</li>
+<li>Представление миниатюр (thumbnail)</li>
+<li>Заголовок</li>
+<li>Автор</li>
+<li>Поиск</li>
+<li>Контрибутор</li>
+<li>Язык</li>
+<li>Дата публикации</li>
+<li>Аннотация</li>
+<li>Описание</li>
+<li>Предпочтение описания, когда есть и аннотация</li>
+<li>Права</li>
+<li>Категория</li>
+<li>Отображение метки вместо кода категории</li>
+</ul>
+
+<h3>Получение</h3>
+
+<ul>
+<li>Общий вид ссылки на получение</li>
+<li>Покупка</li>
+<li>Одалживание</li>
+<li>Открытый доступ</li>
+<li>Подписка</li>
+<li>Образец</li>
+<li>Поддержка множественных ссылок на получение</li>
+<li>Цена</li>
+<li>Валюта</li>
+<li>Косвенное получение</li>
+</ul>
+
+<h3>Дополнительная навигация</h3>
+
+<ul>
+<li>Ссылки внутри записей</li>
+<li>Навороченное (Featured)</li>
+<li>Рекомендованное</li>
+<li>Новое</li>
+<li>Популярное</li>
+<li>Множественные ссылки на Навороченное/Рекомендованное/Новое/Популярное</li>
+</ul>
+
+<h3><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA">Фасетный поиск</a> и сёрфинг</h3>
+
+<ul>
+<li>Обнаружение и отображение фасет</li>
+<li>Группы фасет</li>
+<li>Счётчики</li>
+<li>Активные фасеты</li>
+</ul>
+
+<h3>Экосистема</h3>
+
+<ul>
+<li>Добавление каталога по URL</li>
+<li>Поддержка OPDSной схемы URI</li>
+<li>Сёрфинг, начиная со ссылки с OPDSной схемой</li>
+<li>Добавление каталога по ссылке с OPDSной схемой URI</li>
+<li>Обратные вызовы OPDS (callback)</li>
+</ul>
+
+<h2>Результаты для основных клиентов OPDS</h2>
+
+<p>Мы будем регулярно публиковать результаты испытаний с детальными комментариями основных клиентов OPDS. Все эти результаты есть <a href="http://github.com/Feedbooks/opds-test-catalog/wiki">на нашей Wiki</a>.</p>
+
+<h2>Авторы и контрибуторы</h2>
+
+<p>Текущая версия тестового каталога OPDS всецело разработана Hadrien Gardeur (<a href="https://github.com/HadrienGardeur" class="user-mention">@HadrienGardeur</a>) из Feedbooks (<a href="https://github.com/Feedbooks" class="user-mention">@Feedbooks</a>).</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Тестовый каталог OPDS, поддерживаемый <a href="https://github.com/Feedbooks">Feedbooks</a></p>
+        <p>Опубликовано при помощи <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36452958-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
